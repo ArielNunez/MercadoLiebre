@@ -1,0 +1,41 @@
+/* ============
+    BANNER
+===============*/
+
+
+section.arriba .banner {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.carousel-slide img {
+    width: 100vw;
+}
+
+section.arriba div.puntos {
+    letter-spacing: 5px;
+}
+
+i.dots {
+    color: grey;
+    font-size: 30px;
+    align-self: center;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+i#prevBtn {
+    left: 10px; 
+}
+
+ i#nextBtn {
+    right: 10px;
+}

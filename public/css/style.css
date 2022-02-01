@@ -1,0 +1,16 @@
+@import url("http://use.fontawesome.com/releases/v5.15.1/css/all.css");
+@import url('./header.css');
+@import url('./carousel.css');
+@import url('./mediospago.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body { 
+    background-color: #fff159;
+    font-family: 'Roboto';
+    font-weight: 400;
+}

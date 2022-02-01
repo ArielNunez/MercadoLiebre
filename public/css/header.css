@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+
+
+div.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 80px;
+    margin-bottom: 20px;
+}
+div.brand img { 
+    height: 37px;
+}
+div.brand img.mobile { 
+    display: none;
+}
+div.brand form.buscar {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.5;
+    width: 50%;
+}
+div.brand form.buscar input[type="text"]{
+    font-size: 16px;
+    color: #bfbfbf;
+    padding: 10px 60px 9px 15px;
+    border-style: none;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+div.brand form.buscar button{
+    background-color: #fff;
+    border: none;
+    padding-right: 21px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+div.brand form.buscar button i{
+    border-left: solid #666 0.5px;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #666;
+}
+div.brand img.star{
+    width: 349px;
+}
+div.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+}
+div.nav div{
+    display: flex;
+    margin-left: 4px;
+}
+div.nav div div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+div.nav div i.fa-map-marker-alt{
+    font-size: 23px;
+}
+div.nav div div p.enviar{
+    color: #00000080;
+    font-size: 12px;
+}
+div.nav div div p.cp{
+    color: #333333;
+    font-size: 14px;
+}
+
+div.nav button.bars {
+    display: none;
+}
+div.nav nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.8;
+}
+div.nav nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+div.nav nav ul li{
+    list-style: none;
+    margin-right: 10px;
+}   
+div.nav nav ul li:last-child{
+    list-style: none;
+    margin-right: 0px;
+}
+div.nav nav ul li a{
+    color: #85864b;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    div.brand img.mobile {
+        display: initial;
+    }
+    div.brand img.grande {
+        display: none;
+    }
+    div.nav button.bars {
+        display: initial;
+
+    }
+    div.nav nav ul{
+        display: none;
+    }
+}

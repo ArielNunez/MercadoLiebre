@@ -1,0 +1,46 @@
+div.tarjetas {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 40px 8px;
+}
+div.tarjetas ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border: solid 1px #e8e8e8;
+    background-color: #fff;
+    border-radius: 5px;
+}
+div.tarjetas ul li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 60px 20px 20px;
+}
+div.tarjetas ul li:last-child{
+    border-left: 1px solid #e8e8e8;
+    padding-right: 40px;
+}
+div.tarjetas ul li div.textoTarjetas{
+    padding-left: 20px;
+}
+div.tarjetas ul li div.textoTarjetas h5{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+div.tarjetas ul li div.textoTarjetas p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: #3483fa;
+    margin-top: 5px;
+}
+div.tarjetas ul li div.textoTarjetas p a{
+    text-decoration: none;
+    
+}
+div.tarjetas ul li div.textoTarjetas p a:visited{
+    color: #3483fa;
+    
+}
